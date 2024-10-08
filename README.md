@@ -2,6 +2,8 @@
 
 This project demonstrates a semantic search application using the LaBSE model from the `sentence-transformers` library. The code performs semantic searches on a dataset of Quora question titles, allowing for the retrieval of similar questions based on meaning, rather than exact keyword matching.
 
+Link: https://semantic-search-engine-quora-mdj4pumfs7mtyhtmxrunex.streamlit.app/ 
+
 ## Requirements
 
 Install the necessary Python libraries using the following command:
@@ -94,6 +96,8 @@ search("Men and Women")
 
 ## Example
 When you search for the question "Men and Women," the function will return the closest matching Quora title based on semantic meaning.
+
+
 
 ```python
 search("Men and Women")
